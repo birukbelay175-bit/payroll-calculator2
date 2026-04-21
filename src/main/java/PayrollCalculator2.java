@@ -27,6 +27,8 @@ public class PayrollCalculator2 {
                 Employee emp = new Employee(id, name, hoursWorked, payRate);
 
                 System.out.println(emp.getName() + " earns $" + emp.getGrossPay());
+                System.out.printf("ID: %d | Name: %s | Gross Pay: $%.2f%n",
+                        id, emp.getName(), emp.getGrossPay());
             }
 
             reader.close();
