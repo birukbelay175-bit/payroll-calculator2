@@ -12,6 +12,10 @@ public class Employee {
         this.payRate = payRate;
     }
 
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
     public String getName() {
         return name;
     }
